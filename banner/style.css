@@ -7,14 +7,24 @@
 .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/family_playing_bg_image.webp);
     background-size: cover;
+    color: #fff;
+}
+
+.banner__layout {
+    flex-direction: row;
     min-height: 600px;
     width: 100%;
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner__layout {
-    display: flex;
-    flex-direction: row;
+.panel__title {
+    font-size: clamp(30px, 4.16667vw, 60px);
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 20px 0;
 }
